@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    *{
+        scroll-behavior: smooth;
+    }
+    body{
+        padding: 0 130px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .list{
+        color: black;
+        display: flex;
+    }
+    nav li {
+      list-style: none;
+      display: inline;
+      margin-left: 40px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .list li a {
+      color: black;
+    }
+    nav h1 {
+      padding-left: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .button{
+        text-decoration: none;
+    }
+    .ig {      
+        background: #f85032;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        align-items: center;
+        border-radius: 25px;
+        padding: 15px 25px;
+        color: white;
+        font-weight: 400;   
+    }
+    .ig:hover{
+        background: #3a7bd5;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+    }
+    .wa{
+        background: #528d32;
+        align-items: center;
+        border-radius: 25px;
+        padding: 15px 25px;
+        color: white;
+        font-weight: 400;
+    }
+    .wa:hover{
+        background: #a8ff78;
+        background: -webkit-linear-gradient(to bottom, #78ffd6, #a8ff78);  
+        background: linear-gradient(to bottom, #78ffd6, #a8ff78);
+        color: black;
+    }
+    .bagian-tengah{
+        margin-top: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        display: flex;
+    }
+    .bagian-dalem button{
+        height: 40px;
+        width: 80px;
+        background: #fe8c00;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 80px;
+        border: none;
+        color: white;
+    }
+    .bagian-dalem button:hover{
+        background: orange;
+    }
+    .bagian-bawah{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .bagian-gambar{
+        display: flex;
+        justify-content: space-around;
+        border-radius: 20px;
+        padding-right: 50px;
+    }
+    .bagian-gambar img{
+        height: 150px;
+        width: 250px;
+        border-radius: 20px;
+        border:none;
+        background-size: cover;
+        box-shadow: 4px 4px 0 lightgray;
+        margin-left: 100px;
+    }
+    .portfolio{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .portfolio h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .gambar{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .gambar-bagian2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    footer{
+      display: flex;
+      align-items: center;
+      margin-top: 100px;
+      justify-content: space-between;
+    }
+    .footer-list{
+        color: black;
+        display: flex;
+        margin-left:380px;
+        font-size: 15px;
+    }
+    footer li {
+      list-style: none;
+      display: inline;
+      margin-left: 40px;
+    }
+    .footer-list li a {
+      color: black;
+    }
+    footer h1 {
+      padding-left: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+    footer button{
+        text-decoration: none;
+        border-radius: 10px;
+        border: none;
+        background: rgb(102, 102, 143);
+        width: 100px;
+        height: 50px;
+        color: white;
+    }
+  </style>
+  <body>
+    <nav>
+      <h1>Bagas <span style="color: blue;">Arya</span></h1>
+      <div class="list">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+      </div>
+    </ul>
+    <div class="button">
+        <li>
+            <li><a href="https://www.instagram.com/nhanz.9/" class="ig">Instagram</a></li>
+            <li><a href="https://wa.me/0895327977461" class="wa">Whatsapp</a></li>
+        </li>
+    </div>
+    </nav>
+    <div class="bagian-tengah">
+     <div class="bagian-dalem">
+         <h1>
+             Hi, i'm Bagas Arya Kusuma <br/>
+             Frontend Developer
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vitae explicabo similique deserunt distinctio earum reiciendis tempora accusantium sequi veniam sit voluptates consequuntur, libero quae laudantium rerum quidem cumque dignissimos.</p>
+            <button type="submit">Hire me</button>
+        </div>
+        <img src="Profile.png" alt="" height="440px">
+    </div>
+    <div class="bagian-bawah">
+        <h1>Kemampuan Saya</h1>
+        <div class="bagian-gambar">
+            <img src="html.webp" alt="">
+            <img src="css.webp" alt="">
+            <img src="bootstrap5.png" alt="">
+            <img src="javascript.webp" alt="">
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="portfolio">
+            <h1>My Portfolio</h1>
+            <p>Beberapa Portfolio yang saya kerjakan untuk client client saya</p>
+            <div class="gambar">
+            <img src="Card 1.png" alt="">
+            <img src="Card 2.png" alt="">
+        </div>
+        <div class="gambar-bagian2">
+            <img src="Card 3.png" alt="">
+            <img src="Card 4.png" alt="">
+            <img src="Card 5.png" alt="">
+        </div>
+    </div>
+   <footer>
+       <h1>Bagas Arya Kusuma</h1>
+      <div class="footer-list">
+          <ul>
+              <li><a href="https://github.com/nhenz9">Github</a></li>
+              <li><a href="https://www.instagram.com/nhanz.9/">Instagram</a></li>
+              <li><a href="https://wa.me/0895327977461">Whatsapp</a></li>
+              <li><a href="#">Behance</a></li>
+            </div>
+        </ul>
+        <button type="submit">Hire me</button>
+    </footer>
+</div>
+</body>
+</html>
